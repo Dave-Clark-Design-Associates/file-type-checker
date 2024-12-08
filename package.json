@@ -1,6 +1,6 @@
 {
   "name": "file-type-checker",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Detect and validate file types by their signatures (✨magic numbers✨)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc --declaration",
     "lint": "yarn eslint .",
-    "test": "jest --config jest.config.js"
+    "test": "jest --config jest.config.js",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
